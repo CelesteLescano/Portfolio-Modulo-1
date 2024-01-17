@@ -163,7 +163,7 @@ p {
     background: #171717;
 }
 
-.price {
+.form {
     background-image: url("https://img.freepik.com/fotos-premium/fondo-abstracto-renderizado-3d-sobre-base-plexus_232104-7.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1701820800&semt=ais");
     background-attachment: fixed;
     background-size: cover;
@@ -241,15 +241,20 @@ form {
   font-size: 2rem;
 }
 
-
-
-@media (max-width:768px) {
+@media(max-width:600px) {
 
     .title {
         margin-bottom: 0;
-        font-size: 40px;
+        font-size: 20px;
     }
-    
+    .body {
+        flex-wrap: nowrap;
+    }
+
+    .div {
+        flex-basis: 33%;
+    }
+
     .sau {
         height: 120vh;
     }
@@ -258,3 +263,5 @@ form {
         display: none;
     }
 }
+
+
